@@ -1,2 +1,8 @@
-<svg>
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="display:none">
+  <symbol id="icon-arrow-right" viewBox="0 0 42 36">
+    <path d="M39.9584 18L23.7084 2M39.9584 18L23.7084 34M39.9584 18L2.04171 18" stroke="#20126F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="icon-burger" viewBox="0 0 18 12">
+    <path d="M1.0376 6H16.0376M1.0376 1H16.0376M1.0376 11H16.0376" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
 </svg>
