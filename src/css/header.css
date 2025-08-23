@@ -90,7 +90,7 @@ header {
 
   .header-nav-list {
     display: flex;
-    gap: 32px;
+    gap: var(--gap);
   }
 
   .header-nav-item {

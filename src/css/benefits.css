@@ -1,12 +1,10 @@
-.benefits-container {
-	padding-top: var(--gap);
+.benefits-section {
+	padding-bottom: 75px;
 }
 
 .benefits-title {
 	text-align: center;
-	font-size: 36px;
-	font-weight: 600;
-	margin: 0 0 clamp(28px, 4vw, 102px);
+	margin-bottom: 50px;
 	letter-spacing: .5px;
 	line-height: 1.2;
 }
@@ -15,7 +13,6 @@
 	display: grid;
 	gap: var(--gap);
 	margin: 0;
-	padding: 32px 0 45px;
 	justify-content: center;
 	justify-items: center;
 	grid-template-columns: repeat(4, 247px);
@@ -24,8 +21,6 @@
 .benefit {
 	display: flex;
 	justify-content: center;
-	/* align-items: flex-start;
-	font-weight: 500; */
 	width: 247px;
 }
 
@@ -34,7 +29,7 @@
 	width: 247px;
 	height: 238px;
 	border-radius: 50%;
-	background: var(--benefit-circle-bg);
+	background: #20126F;
 	backdrop-filter: blur(4px) saturate(130%);
 	display: flex;
 	flex-direction: column;
@@ -92,31 +87,24 @@
 }
 
 .benefit-icon-download {
+	fill: none !important;
 	width: 65px;
 }
 
 .benefit-value {
-	font: Roboto;
 	font-size: 24px;
 	font-weight: 500;
 	line-height: 1.2;
+	color: #ffffff;
 	display: block;
 	margin-bottom: 2px;
 	letter-spacing: .3px;
 	white-space: nowrap;
 }
 
-.benefit-label {
-	font-size: var(--benefit-label-size);
-	opacity: .85;
-	line-height: 1.2;
-	display: block;
-	font-weight: 400;
-}
-
 .benefit-circle:hover,
 .benefit-circle:focus-within {
-	background: var(--benefit-circle-bg-hover);
+	background: rgba(25, 40, 120, 0.65);
 	transform: translateY(-6px);
 	box-shadow: var(--benefit-shadow-hover);
 }
@@ -132,21 +120,21 @@
 	filter: drop-shadow(0 0 6px rgba(255, 160, 40, .5));
 }
 
-
-@media (max-width: 640px) {
+@media (max-width: 1200px) {
 	.benefits-title {
-		margin-bottom: 40px;
+		margin-bottom: var(--gap);
+		font-size: 20px;
 	}
 
 	.benefits-list {
 		grid-template-columns: 1fr;
 		gap: var(--gap);
-		padding: 24px 0 40px;
 	}
 
 	.benefit,
 	.benefit-circle {
 		width: 149px;
+		height: 140px;
 	}
 
 	.benefit-circle {
@@ -169,7 +157,10 @@
 	}
 }
 
-@media (max-width: 360px) {
+@media (max-width: 320px) {
+	.benefits-section {
+		padding-bottom: var(--gap);
+	}
 
 	.benefit,
 	.benefit-circle {
@@ -182,13 +173,5 @@
 
 	.benefit-icon {
 		width: 44px;
-	}
-}
-
-@media (prefers-reduced-motion: reduce) {
-
-	.benefit-circle,
-	.benefit-icon {
-		transition: none;
 	}
 }

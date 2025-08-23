@@ -1,13 +1,12 @@
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Inter", "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
 
-  color: #ffffff;
-  background-color: #313065;
+  color: #F2F2F2;
+  background-color: #683f76;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,10 +16,6 @@
 
   --gap: 32px;
 
-  --benefit-circle-bg: rgba(10, 20, 90, 0.55);
-  --benefit-circle-bg-hover: rgba(25, 40, 120, 0.65);
-  --benefit-icon-color: #ff982f;
-  --benefit-label-size: clamp(12px, 1.3vw, 14px);
   --benefit-transition: .55s cubic-bezier(.4, .2, .2, 1);
   --benefit-shadow: 0 4px 14px -4px rgba(0, 0, 0, .45), 0 10px 22px -10px rgba(0, 0, 0, .55);
   --benefit-shadow-hover: 0 6px 18px -4px rgba(0, 0, 0, .5), 0 14px 30px -10px rgba(0, 0, 0, .6);
@@ -36,4 +31,16 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+h1 {
+  font-family: "Roboto Serif", "Georgia", serif;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: "Roboto Serif", "Georgia", serif;
+  font-size: 36px;
+  font-weight: 600;
 }

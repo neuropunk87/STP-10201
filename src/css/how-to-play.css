@@ -1,1 +1,40 @@
-/* how-to-play */
+.htp-section {
+  padding-bottom: var(--gap);
+}
+
+.htp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.htp-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+}
+
+.htp-title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.htp-list {
+  list-style: outside;
+  max-width: 281px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.htp-list-item {
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) {
+  .htp-section {
+    padding-bottom: 75px;
+  }
+}
