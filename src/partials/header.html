@@ -1,1 +1,48 @@
-<!-- header -->
+<header>
+  <div class="container header-container">
+    <div class="app-icon-wrapper">
+      <a href="./index.html">
+        <img
+          class="app-icon"
+          src="./img/header/app-icon@1x.png"
+          srcset="
+            ./img/header/app-icon@1x.png 1x,
+            /img/header/app-icon@2x.png  2x
+          "
+          sizes="(max-width: 1200px) 320px, 1200px"
+          alt="Description"
+        />
+      </a>
+    </div>
+    <button class="burger-open-btn" data-action="open">
+      <svg class="" width="18" height="12">
+        <use href="./img/sprite.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <button class="burger-close-btn" data-action="close">
+      <svg class="" width="11" height="11">
+        <use href="./img/sprite.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <nav class="header-navigation">
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="">Home</a></li>
+        <li class="header-nav-item"><a href="">About the game</a></li>
+        <li class="header-nav-item"><a href="">How to Play</a></li>
+        <li class="header-nav-item"><a href="">Gallery</a></li>
+        <li class="header-nav-item"><a href="">Reviews</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div data-visible="close" class="header-modal">
+    <nav class="modal-navigation">
+      <ul class="modal-nav-list">
+        <li class="header-nav-item"><a href="">Home</a></li>
+        <li class="header-nav-item"><a href="">About the game</a></li>
+        <li class="header-nav-item"><a href="">How to Play</a></li>
+        <li class="header-nav-item"><a href="">Gallery</a></li>
+        <li class="header-nav-item"><a href="">Reviews</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
