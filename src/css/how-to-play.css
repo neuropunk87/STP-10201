@@ -1,1 +1,36 @@
-/* how-to-play */
+.htp-section {
+  background-color: #683f76;
+}
+
+.htp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.htp-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.htp-title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+.htp-list {
+  list-style: outside;
+  max-width: 281px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.htp-list-item {
+  font-weight: 500;
+  color: #f2f2f2;
+}

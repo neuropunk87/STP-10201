@@ -1,1 +1,72 @@
-/* hero */
+.hero-section {
+  background-color: #683f76;
+  padding: 32px 0;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.hero-title {
+  max-width: 202px;
+  font-weight: 600;
+  color: #f2f2f2;
+  text-align: center;
+}
+.hero-text {
+  max-width: 262px;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+
+.download-btn {
+  border-radius: 8px;
+}
+
+.hero-dl-image {
+  width: 193px;
+  height: 56px;
+}
+.hero-image {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section {
+    padding: 75px 0;
+  }
+
+  .hero-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-wrapper {
+    gap: 32px;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .hero-title {
+    max-width: 553px;
+    font-size: 64px;
+    text-align: start;
+  }
+  .hero-text {
+    max-width: 573px;
+    font-size: 24px;
+  }
+  .hero-dl-image {
+    width: 253px;
+    height: 73px;
+  }
+  .hero-image {
+    display: block;
+    border-radius: 37px;
+    width: 428px;
+    height: 570px;
+  }
+}
