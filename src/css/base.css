@@ -16,9 +16,9 @@
 
   --gap: 32px;
 
-  --benefit-transition: .55s cubic-bezier(.4, .2, .2, 1);
-  --benefit-shadow: 0 4px 14px -4px rgba(0, 0, 0, .45), 0 10px 22px -10px rgba(0, 0, 0, .55);
-  --benefit-shadow-hover: 0 6px 18px -4px rgba(0, 0, 0, .5), 0 14px 30px -10px rgba(0, 0, 0, .6);
+  --transition: .55s cubic-bezier(.4, .2, .2, 1);
+  --shadow: 0 4px 14px -4px rgba(0, 0, 0, .45), 0 10px 22px -10px rgba(0, 0, 0, .55);
+  --shadow-hover: 0 6px 18px -4px rgba(0, 0, 0, .5), 0 14px 30px -10px rgba(0, 0, 0, .6);
 }
 
 body {
