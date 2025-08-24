@@ -6,7 +6,7 @@
   font-weight: 400;
 
   color: #F2F2F2;
-  background-color: #683f76;
+  background: linear-gradient(180deg, #0F1E52 0%, #65447B 47.12%, #313065 99.52%), #001369;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
