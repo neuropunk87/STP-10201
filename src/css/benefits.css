@@ -37,11 +37,11 @@
 	justify-content: center;
 	text-align: center;
 	padding: 16px;
-	box-shadow: var(--benefit-shadow);
+	box-shadow: var(--shadow);
 	transition:
-		background var(--benefit-transition),
-		transform var(--benefit-transition),
-		box-shadow var(--benefit-transition);
+		background var(--transition),
+		transform var(--transition),
+		box-shadow var(--transition);
 	overflow: hidden;
 }
 
@@ -60,7 +60,7 @@
 	mix-blend-mode: overlay;
 	pointer-events: none;
 	opacity: .65;
-	transition: opacity var(--benefit-transition);
+	transition: opacity var(--transition);
 }
 
 .benefit-content {
@@ -77,8 +77,8 @@
 	display: block;
 	margin-bottom: 16px;
 	transition:
-		transform var(--benefit-transition),
-		filter var(--benefit-transition);
+		transform var(--transition),
+		filter var(--transition);
 }
 
 .benefit-icon-star {
@@ -106,7 +106,7 @@
 .benefit-circle:focus-within {
 	background: rgba(25, 40, 120, 0.65);
 	transform: translateY(-6px);
-	box-shadow: var(--benefit-shadow-hover);
+	box-shadow: var(--shadow-hover);
 }
 
 .benefit-circle:hover::after,
@@ -121,6 +121,10 @@
 }
 
 @media (max-width: 1200px) {
+	.benefits-section {
+		padding-bottom: var(--gap);
+	}
+
 	.benefits-title {
 		margin-bottom: var(--gap);
 		font-size: 20px;
@@ -158,9 +162,6 @@
 }
 
 @media (max-width: 320px) {
-	.benefits-section {
-		padding-bottom: var(--gap);
-	}
 
 	.benefit,
 	.benefit-circle {

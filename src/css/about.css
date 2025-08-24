@@ -106,24 +106,16 @@
   }
 
   .tape-decoration1 {
-    position: absolute;
-    top: 0;
     left: 400px;
     width: 170px;
     height: 60px;
     transform: rotate(200deg);
-    pointer-events: none;
-    opacity: 85%;
   }
 
   .tape-decoration2 {
-    position: absolute;
     bottom: 380px;
     left: -30px;
     width: 170px;
     height: 60px;
-    transform: rotate(145deg);
-    pointer-events: none;
-    opacity: 85%;
   }
 }
