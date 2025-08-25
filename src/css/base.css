@@ -1,12 +1,24 @@
 :root {
-  font-family: "Inter", "Roboto", system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Inter', 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
 
-  color: #F2F2F2;
-  background: linear-gradient(180deg, #0F1E52 0%, #65447B 47.12%, #313065 99.52%), #001369;
+  --secondary-page: 'Inter', sans-serif;
+  --secondary-mobile-fs: 14px;
+  --secondary-desktop-fs: 24px;
+  --secondary-text-fw: 300;
+  --secondary-title-fw: 700;
+
+  color: #f2f2f2;
+  background: linear-gradient(
+      180deg,
+      #0f1e52 0%,
+      #65447b 47.12%,
+      #313065 99.52%
+    ),
+    #001369;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,9 +28,11 @@
 
   --gap: 32px;
 
-  --transition: .55s cubic-bezier(.4, .2, .2, 1);
-  --shadow: 0 4px 14px -4px rgba(0, 0, 0, .45), 0 10px 22px -10px rgba(0, 0, 0, .55);
-  --shadow-hover: 0 6px 18px -4px rgba(0, 0, 0, .5), 0 14px 30px -10px rgba(0, 0, 0, .6);
+  --transition: 0.55s cubic-bezier(0.4, 0.2, 0.2, 1);
+  --shadow: 0 4px 14px -4px rgba(0, 0, 0, 0.45),
+    0 10px 22px -10px rgba(0, 0, 0, 0.55);
+  --shadow-hover: 0 6px 18px -4px rgba(0, 0, 0, 0.5),
+    0 14px 30px -10px rgba(0, 0, 0, 0.6);
 }
 
 body {
@@ -34,13 +48,13 @@ main {
 }
 
 h1 {
-  font-family: "Roboto Serif", "Georgia", serif;
+  font-family: 'Roboto Serif', 'Georgia', serif;
   font-size: 64px;
   font-weight: 600;
 }
 
 h2 {
-  font-family: "Roboto Serif", "Georgia", serif;
+  font-family: 'Roboto Serif', 'Georgia', serif;
   font-size: 36px;
   font-weight: 600;
 }
