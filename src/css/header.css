@@ -48,7 +48,7 @@ header a {
   max-width: 125px;
 }
 
-.header-modal {
+.js-header-modal {
   background: linear-gradient(
       180deg,
       #0f1e52 0%,
@@ -64,8 +64,12 @@ header a {
   transition: transform 500ms;
 }
 
-.header-modal[data-visible='open'] {
+.js-header-modal.is-open {
   transform: translateX(0);
+}
+
+.js-header-modal.is-closed {
+  transform: translateX(100%);
 }
 
 .modal-nav-list {
