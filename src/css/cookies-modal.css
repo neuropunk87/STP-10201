@@ -1,0 +1,149 @@
+@keyframes fadeIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.cookies-modal {
+  background-color: #0f1e52;
+  position: fixed;
+  bottom: 0;
+  z-index: 9999;
+  padding: 36px 32px;
+  width: 100%;
+  min-width: 320px;
+  transition: transform var(--transition);
+  animation: fadeIn var(--transition);
+}
+
+.cookies-modal.is-closed {
+  transform: translateY(100%);
+  pointer-events: none;
+  animation-play-state: paused;
+}
+
+.cookies-modal.is-open {
+  transform: translateY(0);
+}
+
+.cookies-modal-image {
+  display: none;
+}
+
+.cookies-modal-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  margin-bottom: 54px;
+  align-items: center;
+}
+
+.cookies-modal-title {
+  font-family: var(--secondary-page);
+  font-weight: var(--secondary-title-fw);
+  font-size: 20px;
+  text-align: center;
+}
+
+.cookies-modal-text {
+  text-align: center;
+  max-width: 287px;
+}
+
+.cookies-modal-button {
+  width: 256px;
+  height: 55px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    border 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+    background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.accept {
+  background-color: #000822;
+}
+
+.accept:hover,
+.accept:focus-within {
+  color: #c6c6c6;
+  background-color: #000517;
+}
+
+.accept:active {
+  color: #a2a2a2;
+  background-color: #25272f;
+}
+
+.decline {
+  background-color: transparent;
+  border: 2px solid #f2f2f2;
+}
+
+.decline:hover,
+.decline:focus-within {
+  border: 1px solid #949494;
+  color: #a8a8a8;
+}
+
+.decline:active {
+  border: 1px solid #838383;
+  color: #838383;
+}
+
+.cookies-modal-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+}
+
+@media only screen and (min-width: 1200px) {
+  .cookies-modal {
+    padding: 70px;
+    min-width: 320px;
+  }
+
+  .cookies-modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
+
+  .cookies-modal-image {
+    display: block;
+    width: 248px;
+  }
+
+  .cookies-modal-text-wrapper {
+    margin-bottom: var(--gap);
+    align-items: start;
+  }
+
+  .cookies-modal-title {
+    font-size: 36px;
+    text-align: start;
+  }
+
+  .cookies-modal-text {
+    text-align: start;
+    max-width: 599px;
+    font-size: var(--secondary-desktop-fs);
+  }
+
+  .cookies-modal-button {
+    width: 365px;
+    height: 78px;
+    font-size: var(--secondary-desktop-fs);
+  }
+
+  .cookies-modal-btn-wrapper {
+    flex-direction: row;
+    gap: 16px;
+  }
+}
