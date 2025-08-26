@@ -4,8 +4,6 @@ function handleCookies() {
 
   if (localStorage.getItem('isAccepted') === 'true') {
     cookiesModal.classList.replace('is-open', 'is-closed');
-    localStorage.setItem('isAccepted', 'true');
-    return;
   } else {
     cookiesModal.classList.replace('is-closed', 'is-open');
   }
