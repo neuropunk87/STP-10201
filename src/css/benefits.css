@@ -4,7 +4,7 @@
 
 .benefits-title {
 	text-align: center;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 	letter-spacing: .5px;
 	line-height: 1.2;
 }
@@ -126,7 +126,7 @@
 	}
 
 	.benefits-title {
-		padding-bottom: var(--gap);
+		margin-bottom: var(--gap);
 		font-size: 20px;
 	}
 
@@ -158,21 +158,5 @@
 
 	.benefit-label {
 		font-size: 13px;
-	}
-}
-
-@media (max-width: 320px) {
-
-	.benefit,
-	.benefit-circle {
-		width: calc(149px - 12px);
-	}
-
-	.benefit-circle {
-		height: calc(140px - 9px);
-	}
-
-	.benefit-icon {
-		width: 44px;
 	}
 }
