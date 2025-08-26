@@ -4,7 +4,7 @@
 
 .benefits-title {
 	text-align: center;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 	letter-spacing: .5px;
 	line-height: 1.2;
 }
@@ -126,7 +126,7 @@
 	}
 
 	.benefits-title {
-		margin-bottom: var(--gap);
+		padding-bottom: var(--gap);
 		font-size: 20px;
 	}
 

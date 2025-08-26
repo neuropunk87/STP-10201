@@ -4,7 +4,7 @@
 
 .reviews-title {
     text-align: center;
-    margin: 0 0 50px;
+    padding-bottom: 50px;
     letter-spacing: .5px;
     line-height: 1.2;
 }
@@ -84,7 +84,7 @@
     }
 
     .reviews-title {
-        margin-bottom: var(--gap);
+        padding-bottom: var(--gap);
         font-size: 20px;
     }
 

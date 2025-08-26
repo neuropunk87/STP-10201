@@ -1,5 +1,5 @@
 .htp-section {
-  padding-bottom: var(--gap);
+  padding-bottom: calc(var(--gap) * 2);
 }
 
 .htp-container {

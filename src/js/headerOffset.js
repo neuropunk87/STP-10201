@@ -8,7 +8,7 @@
   let userScrolled = false;
 
   function setVar(h) {
-    document.documentElement.style.setProperty('--header-offset', h + 'px');
+    document.documentElement.style.setProperty('--js-header-offset', h + 'px');
   }
 
   function measure(force = false) {
