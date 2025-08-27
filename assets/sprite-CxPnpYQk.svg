@@ -8,6 +8,9 @@
   <symbol id="icon-arrow-right" viewBox="0 0 32 28">
     <path d="M1.333 14L30.667 14M30.667 14L17.833 1.167M30.667 14L17.833 26.833" stroke="#20126F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
+  <symbol id="icon-arrow-up" viewBox="0 0 32 28">
+    <path d="M16 26.667V1.333M16 1.333L3.167 14.167M16 1.333L28.833 14.167" stroke="#F2F2F2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
   <symbol id="icon-burger" viewBox="0 0 18 12">
     <path d="M1.0376 6H16.0376M1.0376 1H16.0376M1.0376 11H16.0376" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </symbol>
