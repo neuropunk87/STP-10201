@@ -2,13 +2,13 @@ import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 
-const gallerySwiper = new Swiper('.gallery-swiper', {
+const gallerySwiper = new Swiper('.js-gallery-swiper', {
   modules: [Navigation],
   slidesPerView: 2,
   spaceBetween: 11,
   navigation: {
-    nextEl: '.gallery-swiper-btn-next',
-    prevEl: '.gallery-swiper-btn-prev',
+    nextEl: '.js-gallery-swiper-btn-next',
+    prevEl: '.js-gallery-swiper-btn-prev',
   },
   breakpoints: {
     1200: {
