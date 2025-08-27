@@ -52,6 +52,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
+
   .legal li,
   .legal p {
     font-size: var(--secondary-desktop-fs);
