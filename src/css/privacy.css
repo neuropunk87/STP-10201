@@ -24,6 +24,11 @@
   gap: 8px;
 }
 
+.legal-link svg {
+  width: 14px;
+  height: 16px;
+}
+
 .legal-link-text {
   font-weight: 600;
   font-size: 12px;
@@ -68,8 +73,8 @@
   }
 
   .legal-link svg {
-    width: 44px;
-    height: 44px;
+    width: 26px;
+    height: 30px;
   }
 
   .legal-link-text {
