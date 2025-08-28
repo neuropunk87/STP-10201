@@ -48,6 +48,12 @@ header a {
   max-width: 125px;
 }
 
+.modal-container {
+  display: flex;
+  justify-content: start;
+  padding: 37px 0 0 37px;
+}
+
 .js-header-modal {
   background: linear-gradient(
       180deg,
@@ -70,10 +76,6 @@ header a {
 
 .js-header-modal.js-is-closed {
   transform: translateX(100%);
-}
-
-.modal-navigation {
-  padding: 37px 0 0 37px;
 }
 
 .modal-nav-list {
