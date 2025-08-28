@@ -50,8 +50,9 @@ header a {
 
 .modal-container {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   padding: 37px 0 0 37px;
+  max-width: 150px;
 }
 
 .js-header-modal {
