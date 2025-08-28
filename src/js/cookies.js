@@ -3,15 +3,15 @@ function handleCookies() {
   const cookiesModal = document.querySelector('[data-cookies-modal]');
 
   if (localStorage.getItem('isAccepted') === 'true') {
-    cookiesModal.classList.replace('is-open', 'is-closed');
+    cookiesModal.classList.replace('js-is-open', 'js-is-closed');
   } else {
-    cookiesModal.classList.replace('is-closed', 'is-open');
+    cookiesModal.classList.replace('js-is-closed', 'js-is-open');
   }
 
   cookiesBtns.forEach(btn =>
     btn.addEventListener('click', e => {
       localStorage.setItem('isAccepted', 'true');
-      cookiesModal.classList.replace('is-open', 'is-closed');
+      cookiesModal.classList.replace('js-is-open', 'js-is-closed');
     })
   );
 }

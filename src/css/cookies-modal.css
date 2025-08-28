@@ -19,13 +19,13 @@
   animation: fadeIn var(--transition);
 }
 
-.cookies-modal.is-closed {
+.cookies-modal.js-is-closed {
   transform: translateY(100%);
   pointer-events: none;
   animation-play-state: paused;
 }
 
-.cookies-modal.is-open {
+.cookies-modal.js-is-open {
   transform: translateY(0);
 }
 
