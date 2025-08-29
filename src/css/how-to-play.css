@@ -30,10 +30,11 @@
 
 .htp-list {
   list-style: outside;
-  max-width: 281px;
+  max-width: 280px;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding-left: 20px;
 }
 
 .htp-list-item {
@@ -50,8 +51,8 @@
 
 .htp-tape-decoration1 {
   position: absolute;
-  top: 0;
-  left: -40px;
+  top: -5px;
+  left: -30px;
   width: 112px;
   height: 38px;
   transform: rotate(140deg);
@@ -75,8 +76,11 @@
     padding-bottom: 75px;
   }
 
+  .htp-container {
+    max-width: 1000px;
+  }
+
   .htp-wrapper {
-    display: flex;
     flex-direction: row;
     align-items: center;
     gap: var(--gap);
