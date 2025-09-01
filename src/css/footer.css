@@ -39,7 +39,7 @@ footer a {
 .footer-divider::after {
   content: '';
   position: absolute;
-  left: 215px;
+  left: 136px;
   top: 0;
   bottom: 0;
   width: 2px;
@@ -66,6 +66,6 @@ footer a {
   }
 
   .footer-divider::after {
-    left: 400px;
+    left: 253px;
   }
 }
